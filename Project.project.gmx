@@ -6,14 +6,18 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\char_2</sprite>
     <sprite>sprites\sprite3</sprite>
-    <sprite>sprites\sprite1</sprite>
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\char_2</sprite>
+    <sprite>sprites\button</sprite>
     <sprites name="char1">
       <sprite>sprites\char1_left_still</sprite>
+      <sprite>sprites\sprite0</sprite>
+      <sprite>sprites\sprite1</sprite>
       <sprite>sprites\char1_right_still</sprite>
+      <sprite>sprites\char_1_back_still</sprite>
     </sprites>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\sprite9</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -31,7 +35,10 @@
   <objects name="objects">
     <object>objects\object0</object>
     <object>objects\object1</object>
+    <object>objects\object5</object>
     <object>objects\object2</object>
+    <object>objects\object3</object>
+    <object>objects\object4</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
