@@ -24,7 +24,9 @@
     <background>background\background1</background>
     <background>background\background2</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
     <script>scripts\script2.gml</script>
@@ -39,6 +41,7 @@
     <object>objects\object2</object>
     <object>objects\object3</object>
     <object>objects\object4</object>
+    <object>objects\chyar_2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
