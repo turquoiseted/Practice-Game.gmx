@@ -8,31 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="9" enumb="40">
-      <action>
-        <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>010000000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>8</string>
-          </argument>
-        </arguments>
-      </action>
+    <event eventtype="5" enumb="40">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -61,32 +37,32 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="9" enumb="39">
       <action>
         <libid>1</libid>
-        <id>101</id>
+        <id>109</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <functionname>action_move_to</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>0</relative>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>000001000</string>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>8</string>
+            <string>7</string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="5" enumb="39">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -115,32 +91,32 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="9" enumb="38">
       <action>
         <libid>1</libid>
-        <id>101</id>
+        <id>109</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <functionname>action_move_to</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>0</relative>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>000000010</string>
+            <kind>0</kind>
+            <string>7</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="5" enumb="38">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -169,32 +145,32 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="9" enumb="37">
       <action>
         <libid>1</libid>
-        <id>101</id>
+        <id>109</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <functionname>action_move_to</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>0</relative>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>000100000</string>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>8</string>
+            <string>-7</string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="5" enumb="37">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -223,25 +199,23 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="10" enumb="40">
       <action>
         <libid>1</libid>
-        <id>102</id>
+        <id>109</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_motion</functionname>
+        <functionname>action_move_to</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>0</relative>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>-7</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -250,47 +224,25 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="10" enumb="39">
+    <event eventtype="6" enumb="0">
       <action>
         <libid>1</libid>
-        <id>102</id>
+        <id>501</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_motion</functionname>
+        <functionname>action_draw_sprite</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>other</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>0</string>
+            <kind>5</kind>
+            <sprite>sprite3</sprite>
           </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="10" enumb="38">
-      <action>
-        <libid>1</libid>
-        <id>102</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_motion</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
           <argument>
             <kind>0</kind>
             <string>0</string>
@@ -299,31 +251,9 @@
             <kind>0</kind>
             <string>0</string>
           </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="10" enumb="37">
-      <action>
-        <libid>1</libid>
-        <id>102</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_motion</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
           <argument>
             <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
+            <string>-1</string>
           </argument>
         </arguments>
       </action>
