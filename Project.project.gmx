@@ -6,9 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite3</sprite>
-    <sprite>sprites\char_2</sprite>
-    <sprite>sprites\button</sprite>
     <sprites name="char1">
       <sprite>sprites\char1_left_still</sprite>
       <sprite>sprites\sprite0</sprite>
@@ -16,6 +13,17 @@
       <sprite>sprites\char1_right_still</sprite>
       <sprite>sprites\char_1_back_still</sprite>
     </sprites>
+    <sprites name="buttons">
+      <sprite>sprites\new_button</sprite>
+      <sprite>sprites\cont_button</sprite>
+      <sprite>sprites\quit_button</sprite>
+      <sprite>sprites\new_roll</sprite>
+      <sprite>sprites\cont_roll</sprite>
+      <sprite>sprites\quit_roll</sprite>
+    </sprites>
+    <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\char_2</sprite>
+    <sprite>sprites\button</sprite>
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprite9</sprite>
     <sprite>sprites\sprite10</sprite>
@@ -24,7 +32,7 @@
     <background>background\background0</background>
     <background>background\background1</background>
     <background>background\background2</background>
-    <background>background\background3</background>
+    <background>background\Cover_art</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -37,6 +45,11 @@
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
+    <objects name="buttons">
+      <object>objects\button_new</object>
+      <object>objects\button_cont</object>
+      <object>objects\button_quit</object>
+    </objects>
     <object>objects\object0</object>
     <object>objects\object1</object>
     <object>objects\object5</object>
@@ -45,7 +58,6 @@
     <object>objects\object4</object>
     <object>objects\chyar_2</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room2</room>
     <room>rooms\room0</room>
